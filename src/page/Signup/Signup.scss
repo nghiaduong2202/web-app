@@ -1,0 +1,64 @@
+.wrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    --width-form: 30rem;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.background {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-shrink: 0;
+}
+
+.form-signup {
+    background-color: #fff;
+    width: 36rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    border-radius: 8px;
+    position: fixed;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin: 2rem 0;
+    color: #000;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: var(--width-form);
+    height: 3rem;
+}
+
+.footer {
+    width: var(--width-form);
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    align-items: last baseline;
+    font-weight: 300;
+    margin: 1.2rem 0 2rem;
+}
